@@ -7,21 +7,26 @@
         margin-top: 500px; /* Add a margin to the top of the page */
       }
       header {
-        text-align: center; /* Center the header text */
+        display: inline-block; /* Display the header and image next to each other */
+        vertical-align: top; /* Align the header to the top of the image */
+        margin-left: 50px; /* Add some space between the header and image */
+        width: 200px; /* Adjust the width of the header */
       }
       img {
         display: block; /* Display the image as a block element */
-        margin: 0 auto; /* Center the image horizontally */
+        float: left; /* Float the image to the left */
+        margin-right: 50px; /* Add some space between the image and header */
         width: 800px; /* Adjust the width of the image */
         height: auto; /* Maintain aspect ratio of the image */
       }
     </style>
   </head>
   <body>
+    <img src="FishingGameImage.PNG" alt="Description of the image">
     <header>
-      <h1>Projects</h1>
+      <h1>Your Heading Here</h1>
+      <p>Your Description Here</p>
     </header>
-    <img src="FishingGameImage.PNG" alt="A 3D fishing game made with Godot 4">
     <h2>Your Subheading Here</h2>
     <p>Your content here</p>
   </body>
