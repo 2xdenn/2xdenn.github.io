@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Your Page Title Here</title>
-    <style>
-      body {
-        margin-top: 500px; /* Add a margin to the top of the page */
-      }
-      header {
-        display: inline-block; /* Display the header and image next to each other */
-        vertical-align: top; /* Align the header to the top of the image */
-        margin-left: 50px; /* Add some space between the header and image */
-        width: 200px; /* Adjust the width of the header */
-      }
-      img {
-        display: block; /* Display the image as a block element */
-        float: left; /* Float the image to the left */
-        margin-right: 50px; /* Add some space between the image and header */
-        width: 800px; /* Adjust the width of the image */
-        height: auto; /* Maintain aspect ratio of the image */
-      }
-    </style>
+    <meta charset="UTF-8">
+    <title>My Basic Page</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <img src="FishingGameImage.PNG" alt="Description of the image">
     <header>
-      <h1>Your Heading Here</h1>
-      <p>Your Description Here</p>
+      <h1>Welcome to My Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <h2>Your Subheading Here</h2>
-    <p>Your content here</p>
+    
+    <main>
+
+      <div class="projects-title">
+        <h2>My Projects</h2>
+      </div>
+
+      <div class="content">
+        <div class="image-and-text">
+          <img src="FishingGameImage.PNG" alt="Placeholder Image" class="float-left">
+          <div class="text">
+            <h3>3D Fishing RPG</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim nec rhoncus pretium. Sed tincidunt nulla et diam bibendum, vel pulvinar lorem mollis. Donec aliquet auctor erat, in maximus lorem lacinia ac. Aliquam erat volutpat. </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 My Page. All rights reserved.</p>
+    </footer>
   </body>
 </html>
-
-
-
-
-
-
